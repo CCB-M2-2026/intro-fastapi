@@ -1,0 +1,2 @@
+class CharacterImgNotValid(Exception):
+    pass
