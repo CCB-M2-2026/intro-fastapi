@@ -1,6 +1,6 @@
 # api-fastapi
 
-> **API CRUD con FastAPI** – Personajes de **Kimetsu no Yaiba (鬼滅の刃)**
+> **API CRUD con FastAPI** – Personajes**
 
 Proyecto educativo que muestra cómo construir una **API REST** completa siguiendo una arquitectura por capas (Domain, Application, Infrastructure) y aplicando **TDD (Test-Driven Development)**.
 
