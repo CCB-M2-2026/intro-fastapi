@@ -1,6 +1,6 @@
 # api-fastapi
 
-> **API CRUD con FastAPI** – Personajes**
+> **API CRUD con FastAPI** – Personajes de **Kimetsu no Yaiba (鬼滅の刃)**
 
 Proyecto educativo que muestra cómo construir una **API REST** completa siguiendo una arquitectura por capas (Domain, Application, Infrastructure) y aplicando **TDD (Test-Driven Development)**.
 
@@ -28,9 +28,9 @@ Es rápido, tiene documentación automática (Swagger / ReDoc) y soporta tipado 
 
 ### 🎯 ¿Qué vamos a construir?
 
-Una **API CRUD de personajes** donde podrás:
+Una **API CRUD de personajes de Kimetsu no Yaiba** donde podrás:
 
-- Crear un personaje (Tanjiro…)
+- Crear un personaje (Tanjiro, Nezuko, Zenitsu…)
 - Listarlos todos
 - Ver uno por id
 - Actualizar su información
@@ -1229,4 +1229,8 @@ Cliente (curl / frontend)
 - [pytest](https://docs.pytest.org/)
 - [Test-Driven Development (Kent Beck)](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
 - [Clean Architecture (Robert C. Martin)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [Kimetsu no Yaiba – Wiki](https://kimetsu-no-yaiba.fandom.com/)
 
+---
+
+> 🗡️ *「心を込めて」* — Hecho con ❤️ para aprender FastAPI.

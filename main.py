@@ -1,6 +1,17 @@
 from fastapi import FastAPI
-from src.characters.infraestructure.api import router as character_router
+from fastapi.middleware.cors import CORSMiddleware
+from src.shared.infraestructure.api import router as shared_router
+from src.characters.infraestructure.api import router as characters_router
 
-app= FastAPI()
-app.include_router(character_router)
+app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(shared_router)
+app.include_router(characters_router)
